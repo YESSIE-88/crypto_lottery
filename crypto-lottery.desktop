@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Crypto Lottery Miner
+Comment=Automated Monero solo miner via crypto_lottery repo
+Exec=lxterminal --working-directory=/home/jessie/Desktop/crypto_lottery -e "bash -c 'sleep 30 && ./network-wait.sh && ./start.sh; exec bash'"
+X-GNOME-Autostart-enabled=true
