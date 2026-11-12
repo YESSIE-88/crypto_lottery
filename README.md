@@ -83,6 +83,12 @@ cd ~/Desktop/crypto_lottery
 chmod +x network-wait.sh start.sh
 ```
 
+4. **Add Desktop file to autostart:**
+```bash
+cp crypto-lottery.desktop ~/.config/autostart/crypto-lottery.desktop
+```
+
+
 ---
 
 ## Step 4: Automation & Autostart Configuration
